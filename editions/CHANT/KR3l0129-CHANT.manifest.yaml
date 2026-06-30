@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR3l0129/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR3l0129/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 笑林一卷
+  identifiers:
+    krp: KR3l0129
+  tags:
+    tls-dates: dat04500
+    tls-internal:
+    - swl
+    - tr-en
+    kr-categories: KR3l
+  source:
+    repository: tls-texts
+    path: data/tls/KR3l0129.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR3l0129_001-CHANT.yaml, hash: 'sha256:21b665126fb03cae091a1c4691fe38fddebe7f0e480ea72cd15b4444fb0b79b3'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3l0129_001-CHANT.markers.yaml, hash: 'sha256:4851361746f0010640a42b1e6f8ef10e07a779d177cab8097672b998e5f9f6ca'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR3l0129_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 2209
+  label: 笑林
+  type: section
+  level: 1
+hash: sha256:102d8dff8a1b6ce739221c2b20ae5aacc341448333b273fe16b97270a19ae715

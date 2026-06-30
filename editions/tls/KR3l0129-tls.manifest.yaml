@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR3l0129/tls/v1
+canonical_location: https://kanripo.org/bkk/KR3l0129/tls/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 笑林
+  identifiers:
+    krp: KR3l0129
+  tags:
+    kr-categories: KR3l
+    tls-internal:
+    - core
+    - tr-en
+    - swl
+    tls-dates: dat04100
+  source:
+    repository: tls-texts
+    path: data/tls/KR3l0129.xml
+  edition:
+    short: tls
+assets:
+  parts:
+  - {seq: 1, filename: KR3l0129_001-tls.yaml, hash: 'sha256:046fd41809f5e79cc7d7c63828efaf304ab3f8f5e89016c374d4508a0ab3a8ae'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR3l0129_001-tls.markers.yaml, hash: 'sha256:8525286290979a5298036553a8bb773f19a2bca626af9310a4e3f194c8baa5e5'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: ''
+    span:
+    - body
+    - 0
+    - 2335
+  label: ''
+  type: section
+  level: 1
+hash: sha256:ef7410baa5fbc186dd48709fabc58b62413268a8ee18dbfebb4fd0f8e99bef8a
